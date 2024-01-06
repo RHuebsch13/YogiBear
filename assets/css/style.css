@@ -40,6 +40,26 @@ body {
 }
 
 
+/* Block dividers */
+
+.container-fluid.welcome-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block-divider {
+    width: 20%;
+    height: 2px;
+    border: 0;
+    margin: 5% auto;
+    background-color: #fff;
+}
+
+
+/*----------why yoga section----------*/
+
+
 /*----------footer----------*/
 footer{
     background-color: #3a3b3c;
