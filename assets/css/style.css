@@ -1,3 +1,7 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 /*----------colours----------*/
 
 
@@ -6,15 +10,34 @@
 
 /*----------navbar----------*/
 .navbar-brand {
-    font-family: 'Roboto', sans-serif;
     font-weight: 100;
 }
 
 #navbardown {
-    font-family: 'Roboto', sans-serif;
     font-weight: 100;
 }
 
+/*----------welcome section----------*/
+
+.welcome-container {
+    height: 100vh;
+    background: url('../images/home.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    position: relative;
+}
+
+.welcome {
+    color: #fff;
+    text-align: center;
+}
 
 
 /*----------footer----------*/
