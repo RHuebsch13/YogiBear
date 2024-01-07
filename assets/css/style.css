@@ -18,20 +18,18 @@ body {
 }
 
 /*----------welcome section----------*/
-
 .welcome-container {
     height: 100vh;
     background: url('../images/home.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
-    
     display: flex;
     align-items: center;
     justify-content: center;
-    
     position: relative;
+    margin-bottom: 20px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 .welcome {
@@ -40,8 +38,7 @@ body {
 }
 
 
-/* Block dividers */
-
+/*-----------Block dividers-----------*/
 .container-fluid.welcome-container {
     display: flex;
     justify-content: center;
@@ -58,6 +55,26 @@ body {
 
 
 /*----------why yoga section----------*/
+.container-yoga {
+    height: 100vh;
+    line-height: 20px;
+    clear: both;
+    
+}
+
+.yoga-circle img {
+    display: grid;
+    place-items: center;
+    max-width: 100%;
+    height: auto;
+}
+
+.yoga-circle {
+    padding-top: 40px;
+}
+
+/*----------instructors----------*/
+
 
 
 /*----------footer----------*/
