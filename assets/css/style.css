@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    font-weight: 100;
 }
 
 /*----------colours----------*/
@@ -59,23 +60,61 @@ body {
     height: 100vh;
     line-height: 20px;
     clear: both;
-    
-}
-
-.yoga-circle img {
-    display: grid;
-    place-items: center;
-    max-width: 100%;
-    height: auto;
+    margin: 20px 0;
+    padding-top: 50px;
 }
 
 .yoga-circle {
     padding-top: 40px;
+    display: grid;
+    place-items: center;
 }
 
-/*----------instructors----------*/
+.yoga-circle img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*----------gallery----------*/
+
+div.scroll-container{
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+
+div.scroll-container img{
+    padding: 10px;
+}
 
 
+.gheading{
+    font-weight: 100;
+    color: #3a3b3c;
+    text-align: center;
+}
+
+/*---------yoga types------*/
+
+.container .row .col h4.type-heading {
+    color: black;
+}
+
+.types {
+    height: 100vh;
+    background: url('../images/info.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    opacity: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 20px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
 
 /*----------footer----------*/
 footer{
