@@ -18,8 +18,9 @@
 </head>
 
 <body>
-    <!--Nav-->
-    <nav class="navbar navbar-dark navbar-expand-sm bg-dark">
+   <div class="container-fluid">
+     <!--Nav-->
+     <nav class="navbar navbar-dark navbar-expand-sm bg-dark">
         <a href="index.html" class="navbar-brand">
             Yogi Bear</a>
 
@@ -38,7 +39,7 @@
     <!--welcome section-->
     <div class="container-fluid welcome-container">
       <section class="container-fluid welcome">
-          <H2>WELCOME TO THE YOGI BEAR YOGA STUDIOS</H2>
+          <h2>WELCOME TO THE YOGI BEAR YOGA STUDIOS</h2>
           <hr class="block-divider">
           <p>Providing yoga classes for Adults, Children, Teens & Families.</p>
           <p>Classes based in Llandaff North, Cardiff, CF14</p>
@@ -46,8 +47,8 @@
     </div>
 
     <!--why yoga-->
-    <section id="club-ethos">
-        <h2 id="welcome">Why Choose Yoga With Us?</h2>
+    <section id="why-yoga">
+        <h2 id="wheading" class="text-uppercase">Why Choose Yoga With Us?</h2>
         <div id="left-about">
             <div class="left-about-heading">
                 <h2>Yoga makes you feel better</h2>
@@ -86,7 +87,7 @@
                 </p>
             </div>
         </div>
-        <div id="center-about">
+        <div id="center-about" class="d-none d-sm-block" >
             <div id="circle-container">
                 <div id="circle-cover-bg"></div>
             </div>
@@ -96,49 +97,51 @@
     
 
     <!--instructors-->
-    <section>
+    <section class="quotes">
         <div class="row">
-            <div class="col-12 col-sm">
-                <h2>Meet our Experienced Instructors.</h2>
+            <div class="col-12 my-5">
+                <h1 class="text-uppercase">Meet Our Instructors</h1>
+                
             </div>
         </div>
-
-        <div class="row spacing">
-            <div class="col-12 col-md-6 col-sm">
+        <div class="row">
+            <div class="col-12 col-md-6">
                 <div class="media">
                     <div class="d-none d-sm-block">
                         <img src="assets/images/instructor1.jpg" alt="photo of female instructor" class="rounded-circle mr-3" height=100 width=100>
                     </div>
-                    <div class="col-sm media-body">
+                    <div class="media-body">
                         <blockquote class="blockquote">
-                            <p>I've been a yoga enthusiast for, what feels like, my whole life!</p>
-                            <p>I love helping people realise their potential and 10 years of teaching experience means I can do that well.</p>
-                            <p>Can't wait to see you in class!</p>
-                            <p>- Ginny Weasley</p>
-                            <p>Speciality: Vinyasa, Vinyasa flow and Hot yoga</p>
+                            <p>"I've been a yoga enthusiast for, what feels like, my whole life!</p>
+                            <p>I love helping people realise their potential 
+                                and 10 years of teaching experience means I can do that well.</p>
+                            <p>Can't wait to see you in class!"</p>
+                            <p><b>Speciality: Vinyasa, Vinyasa flow and Hot yoga</b></p>
+                            <em>- Ginny Weasley</em>
                         </blockquote>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-sm">
+            <div class="col-12 col-md-6">
                 <div class="media">
                     <div class="d-none d-sm-block">
                         <img src="assets/images/instructor2.jpg" alt="photo of female instructor"  class="rounded-circle mr-3" height=100 width=100>
                     </div>
-                    <div class=" col-sm media-body">
+                    <div class="media-body">
                         <blockquote class="blockquote">
-                            <p>My favorite part of the job is watching people fall inlove with the practice!</p>
-                            <p>I've been teaching for 25 years myself and I think I'll always be in love with yoga.</p>
-                            <p>Let's grow together!</p>
-                            <p>- Hermione Granger</p>
-                            <p>Speciality: Yin, Vinyasa flow, Prenatal and Hot yoga</p>
+                            <p>"My favorite part of the job is watching people fall 
+                                inlove with the practice!</p>
+                            <p>I've been teaching for 25 years myself and I think 
+                                I'll always be in love with yoga.</p>
+                            <p>Let's grow together!"</p>
+                            <p><b>Speciality: Yin, Vinyasa flow, Prenatal and Hot yoga</b></p>
+                            <em>- Hermione Granger</em>
                         </blockquote>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
     <!--footer-->
     <footer class="container-fluid">
         <div id="footer-details" class="row">
@@ -169,6 +172,7 @@
         </div>
     </footer>
 
+   </div>
 
 
 
