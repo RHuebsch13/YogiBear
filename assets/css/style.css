@@ -157,8 +157,9 @@ div.scroll-container img{
 
 /*---------yoga types------*/
 
-.container .row .col h4.type-heading {
+.container p {
     color: black;
+    
 }
 
 .types {
@@ -175,6 +176,36 @@ div.scroll-container img{
     -moz-background-size: cover;
     -o-background-size: cover;
 }
+
+
+/*----------classes--------*/
+
+#times{
+    background-image: url('../images/class.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+#times div {
+    color: #fafafa;
+    background-color: rgba(0,0,0, .6);
+    width: 24.3%;
+    height: 400px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    margin: 5px;
+}
+
+#times h2 {
+    color: #fafafa;
+}
+
+
+
 
 /*----------footer----------*/
 footer{
@@ -205,6 +236,18 @@ footer{
 
 .socials li a i:hover {
     color: #A020F0;
+}
+
+.download {
+    color: #fff;
+}
+
+.download p a i:hover {
+    color: #A020F0;
+}
+
+.download p a i {
+    color: #fff;
 }
 
 
