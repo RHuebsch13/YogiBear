@@ -49,7 +49,7 @@ HTML, CSS and Bootstrap frameworks
 
 # 6. Credits
 
-gallery we3schools
+gallery, form we3schools
 
 why choose yoga
 https://www.ekhartyoga.com/articles/practice/7-great-reasons-to-start-practicing-yoga

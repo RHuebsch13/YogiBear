@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -164,7 +165,7 @@ div.scroll-container img{
 
 .types {
     height: 100vh;
-    background: url('../images/info.jpeg') no-repeat center center fixed;
+    color: black;
     background-size: cover;
     opacity: 0.5;
     display: flex;
@@ -177,6 +178,13 @@ div.scroll-container img{
     -o-background-size: cover;
 }
 
+/*-----------------video-----------*/
+.youtube {
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
 
 /*----------classes--------*/
 
@@ -203,8 +211,82 @@ div.scroll-container img{
 #times h2 {
     color: #fafafa;
 }
+/*-----------------contact--------*/
+.contact{
+    height: 100vh;
+}
+
+.contact-details{
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 auto;
+}
 
 
+
+/*--------------------form---------*/
+.form-container {
+    height: 100vh;
+    width: 80%;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 auto;
+  }  
+
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #333;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #A020F0;
+  }
+  
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 
 /*----------footer----------*/

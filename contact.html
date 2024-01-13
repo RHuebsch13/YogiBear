@@ -36,40 +36,9 @@
             </ul>
     </nav>
 
-    <section>
-        <form action="https://formdump.codeinstitute.net/" method="post">
-            <h2>Let's get you signed up!</h2>
-         
-         <label for="fname">First Name</label>
-         <input type="text" id="fname" name="first_name" required>
-         
-         <label for="lname">Last Name</label>
-         <input type="text" id="lname" name="last_name" required>
-         
-         <label for="email">Email Address</label>
-         <input type="email" id="email" name="email_address" required>
-         
-         <label for="vinyasa yoga">Vinyasa Yoga</label>
-         <input type="radio" id="vinyasa yoga" name="yoga_preference" value="vinyasa yoga" required>
-         
-         <label for="yin yoga">Yin Yoga</label>
-         <input type="radio" id="yin yoga" name="yoga_preference" value="yin yoga" required>
 
-         <label for="hot yoga">Hot Yoga</label>
-         <input type="radio" id="hot yoga" name="yoga_preference" value="hot yoga" required>
-
-         <label for="prenatal yoga">Prenatal Yoga</label>
-         <input type="radio" id="prenatal yoga" name="yoga_preference" value="prenatal yoga" required>
-         
-         <label for="both">All</label>
-         <input type="radio" id="both" name="yoga_preference" value="all" required>
-         <input type="submit" value="Let's Go!">
-         </form>
-         
-    </section>
-
-    <section>
-        <div>
+    <section class="contact">
+        <div class="contact-details">
             <p>email:admin@yogabear.com</p>
             <p>0124 578 3415</p>
             <p>Office Hours </p>
@@ -79,7 +48,65 @@
         </div>
     </section>
 
-
+    <section class="form-container">
+            <h2>We'd love to hear from you!</h2>
+            <div>
+                <form action="confirmation.html" method="get">
+                <div class="row">
+                  <div class="col-25">
+                    <label for="fname">First Name</label>
+                  </div>
+                  <div class="col-75">
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-25">
+                    <label for="lname">Last Name</label>
+                  </div>
+                  <div class="col-75">
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-25">
+                    <label for="lname">Email</label>
+                  </div>
+                  <div class="col-75">
+                    <input type="email" id="email" name="email" placeholder="Your email address..">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-25">
+                    <label for="country">Yoga Interest</label>
+                  </div>
+                  <div class="col-75">
+                    <select id="country" name="country">
+                      <option value="australia">Prenatal Yoga</option>
+                      <option value="canada">Vinyasa Yoga</option>
+                      <option value="usa">Yin Yoga</option>
+                      <option value="canada">Hot Yoga</option>
+                      <option value="canada">More than one type of Yoga</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-25">
+                    <label for="subject">Enquiry</label>
+                  </div>
+                  <div class="col-75">
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                  </div>
+                </div>
+                <br>
+                <div class="row">
+                  <input type="submit" value="Submit">
+                </div>
+                </form>
+              </div>
+        
+         
+    </section>
 
     <footer class="container-fluid">
         <div id="footer-details" class="row">
