@@ -1,7 +1,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 /*----------colours----------*/
@@ -12,11 +12,15 @@ body {
 
 /*----------navbar----------*/
 .navbar-brand {
-    font-weight: 100;
+    font-weight: 300;
 }
 
 #navbardown {
-    font-weight: 100;
+    font-weight: 300;
+}
+
+.navbar-nav .nav-item a.nav-link:hover {
+    color: #A020F0;
 }
 
 /*----------welcome section----------*/
@@ -34,7 +38,7 @@ body {
     -o-background-size: cover;
 }
 
-.welcome {
+.text-color {
     color: #fff;
     text-align: center;
 }
@@ -58,9 +62,14 @@ body {
 
 /*----------why yoga section----------*/
 
-#why-yoga{
-    height: 600px;
-}
+
+ #why-yoga {     
+     height: 600px;
+     color:#343a40;
+     text-align: left;
+
+    }
+    
 
 #left-about{
     padding-top: 30px;
@@ -129,11 +138,78 @@ hr {
 }
 
 /*----------instructors section----------*/
-
-#instruct {
-    height: 800px;
+.instruct {
+    background-color: #343a40;
+    color: #fafafa;
 }
 
+@media only screen and (max-width: 320px) {
+.blockquote {
+    background-color: #343a40;
+    color: #fafafa;
+}
+
+.instruct {
+    background-color:#fff;
+    
+}
+.text-uppercase {
+    color:#343a40
+}
+}
+
+.quotes-block {
+    border-color: transparent;
+}
+
+/*--------Media Query--------- */
+@media only screen and (max-width: 768px) {
+    #why-yoga {
+        height: auto; 
+    }
+
+    #left-about,
+    #right-about,
+    #center-about {
+        width: 100%; 
+        float: none; 
+    }
+
+    .left-about-heading,
+    .right-about-heading {
+        width: 100%; 
+        float: none; 
+    }
+
+    #circle-container {
+        width: 100%; 
+        height: auto; 
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #why-yoga {
+        height: 110vh; 
+    }
+
+    #left-about{
+        padding-top: 25px;
+        width: 30%;
+        float: left;
+    }
+    
+    #right-about {
+        padding-top: 25px;
+        width: 30%;
+        float: right;
+    }
+    
+    #center-about {
+        width: 33%;
+        margin: 0 auto;
+    }
+
+}
 
 
 /*----------gallery----------*/
@@ -151,23 +227,29 @@ div.scroll-container img{
 
 
 .gheading{
-    font-weight: 100;
-    color: #3a3b3c;
+    font-weight: 400;
+    color: #343a40;
     text-align: center;
 }
 
 /*---------yoga types------*/
 
-.container p {
-    color: black;
-    
+.type-yoga { 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+    float:left
+}
+
+.type-yoga h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 
 .types {
     height: 100vh;
-    color: black;
     background-size: cover;
-    opacity: 0.5;
+    background: url('../images/info.jpg') no-repeat center center;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -208,8 +290,27 @@ div.scroll-container img{
     margin: 5px;
 }
 
-#times h2 {
+#times h2, h3, p {
     color: #fafafa;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+/*--------Media Query--------- */
+@media only screen and (max-width: 1024px) {
+    #times div {
+        width: 48%; 
+    }
+
+    #times div:last-child {
+        clear: none; 
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .types{
+        height: auto;
+    }
 }
 /*-----------------contact--------*/
 .contact{
@@ -217,8 +318,6 @@ div.scroll-container img{
     background: url('../images/contact.webp') no-repeat center center;
     background-size: cover;
     display: flex;
-    align-items: center;
-    justify-content: center;
     position: relative;
     margin-bottom: 20px;
     -webkit-background-size: cover;
@@ -227,18 +326,16 @@ div.scroll-container img{
 }
 
 .contact-details{
-    border-radius: 5px;
     padding: 20px;
-    float: right;
-    color: #343a40;
-    margin-left: 20px;
+    color: #fafafa;
+    background-color: #343a40;
 }
 
 
 
 /*--------------------form---------*/
 .form-container {
-    height: 100vh;
+    height: 120vh;
     width: 80%;
     border-radius: 5px;
     padding: 20px;
@@ -330,6 +427,11 @@ footer{
 
 .socials li a i:hover {
     color: #A020F0;
+}
+
+.general-sub {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
 .download {
