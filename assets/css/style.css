@@ -213,13 +213,25 @@ div.scroll-container img{
 }
 /*-----------------contact--------*/
 .contact{
-    height: 100vh;
+    height: 400px;
+    background: url('../images/contact.webp') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 20px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 .contact-details{
     border-radius: 5px;
     padding: 20px;
-    margin: 0 auto;
+    float: right;
+    color: #343a40;
+    margin-left: 20px;
 }
 
 
@@ -256,7 +268,7 @@ div.scroll-container img{
   }
   
   input[type=submit] {
-    background-color: #333;
+    background-color: #343a40;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -291,7 +303,7 @@ div.scroll-container img{
 
 /*----------footer----------*/
 footer{
-    background-color: #3a3b3c;
+    background-color: #343a40;
     text-align: center;
 }
 

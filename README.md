@@ -35,7 +35,7 @@ All design choices are made to create an easy to use and easy to naviagte websit
 
 ## Existing features
 
-Navbar dropdown: this only becomes visual when the screen real estate is less than 768px, making the navbar easily accessible even on a smaller screen. The purpose of this is to ensure that the website will work for as many people as possible across as many different devices as possible.
+Navbar dropdown: this only becomes visual when the screen real estate is less than 768px, making the navbar easily accessible even on a smaller screen. The purpose of this is to ensure that the website will work for as many people as possible across as many different devices as possible. scrollable videos + pictures, not a real yoga studio, etc
 
 ## left to implement
 
