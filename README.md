@@ -15,6 +15,7 @@ It aims to create a positive user experience.
 
 ## User Stories
 
+
 ## Design choices
 
 All design choices are made to create an easy to use and easy to naviagte website, that is visually pleasing for the user.
@@ -39,17 +40,25 @@ Icons were used in the footer for the social media links as well as the download
 
 Navbar dropdown: this only becomes visual when the screen real estate is less than 768px, making the navbar easily accessible even on a smaller screen. The purpose of this is to ensure that the website will work for as many people as possible across as many different devices as possible. scrollable videos + pictures, not a real yoga studio, etc
 
+Download link for the class timetable, which is the download icon.
+
+Benefits of yoga as practice.
+
+Types of yog ainformation, helping the user identify the type of workout they are looking for.
+
 ## left to implement
 
-# 3. Technology Used
+# 3. Wireframes
+
+# 4. Technology Used
 
 HTML, CSS and Bootstrap frameworks
 
-# 4. Testing
+# 5. Testing
 
-# 5. Deployment
+# 6. Deployment
 
-# 6. Credits
+# 7. Credits
 
 gallery, form we3schools
 
