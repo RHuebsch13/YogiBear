@@ -20,8 +20,10 @@ It aims to create a positive user experience.
 All design choices are made to create an easy to use and easy to naviagte website, that is visually pleasing for the user.
 
 ### Fonts
+Google font Roboto has been used as the primary font. The sans-serif fallback is included as a generic category in case 'Roboto' is not available on the user's device or browser. Both fonts were selected as the are easy to read and match the aesthetic of the page.
 
 ### Icons
+Icons were used in the footer for the social media links as well as the download class timetable link. These icons were chosen because they are familiar and easily recognisable so the user can decipher the meaning and use of the icon. 
 
 ### Colours
 
