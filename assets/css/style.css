@@ -4,12 +4,6 @@ body {
     font-weight: 400;
 }
 
-/*----------colours----------*/
-
-
-
-
-
 /*----------navbar----------*/
 .navbar-brand {
     font-weight: 300;
@@ -62,14 +56,12 @@ body {
 
 /*----------why yoga section----------*/
 
-
  #why-yoga {     
-     height: 600px;
+     height: 700px;
      color:#343a40;
      text-align: left;
 
     }
-    
 
 #left-about{
     padding-top: 30px;
@@ -81,6 +73,11 @@ body {
     padding-top: 30px;
     width: 33%;
     float: right;
+}
+
+.left-about-heading p,
+.right-about-heading p {
+    color: #343a40 !important;
 }
 
 #center-about {
@@ -114,6 +111,7 @@ hr {
     text-align: left;
 }
 
+
 #wheading {
     margin: 20px 0;
     text-align: center;
@@ -137,31 +135,6 @@ hr {
     border-radius: 50%;
 }
 
-/*----------instructors section----------*/
-.instruct {
-    background-color: #343a40;
-    color: #fafafa;
-}
-
-@media only screen and (max-width: 320px) {
-.blockquote {
-    background-color: #343a40;
-    color: #fafafa;
-}
-
-.instruct {
-    background-color:#fff;
-    
-}
-.text-uppercase {
-    color:#343a40
-}
-}
-
-.quotes-block {
-    border-color: transparent;
-}
-
 /*--------Media Query--------- */
 @media only screen and (max-width: 768px) {
     #why-yoga {
@@ -181,35 +154,73 @@ hr {
         float: none; 
     }
 
-    #circle-container {
-        width: 100%; 
-        height: auto; 
+    #circle-cover-bg, #circle-container {
+        display: none; 
     }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (width: 1024px) {
     #why-yoga {
-        height: 110vh; 
+        height: 750px; 
     }
 
     #left-about{
         padding-top: 25px;
-        width: 30%;
+        width: 33%;
         float: left;
     }
     
     #right-about {
         padding-top: 25px;
-        width: 30%;
+        width: 35%;
         float: right;
     }
     
     #center-about {
         width: 33%;
+        padding-right: 20px;
         margin: 0 auto;
     }
 
 }
+
+/*----------instructors section----------*/
+.instruct {
+    background-color: #343a40;
+    color: #fafafa;
+}
+
+.iheading {
+    margin-left: 5%;
+}
+
+
+.quotes-block {
+    border-color: transparent;
+}
+
+/*--------Media Query--------- */
+
+@media only screen and (max-width: 426px) {
+    .blockquote {
+        background-color: #343a40;
+        color: #fafafa;
+    }
+    
+    .instruct {
+        background-color:#fff;
+        
+    }
+    .text-uppercase {
+        color:#343a40
+    }
+    }
+    
+    .quotes-block {
+        border-color: transparent;
+    }
+
+
 
 
 /*----------gallery----------*/
@@ -220,6 +231,12 @@ div.scroll-container{
     white-space: nowrap;
     padding: 10px;
 }
+.scroll-container img,
+  .scroll-container iframe {
+    display: inline-block;
+    margin-right: 10px;   
+    vertical-align: top; 
+  }
 
 div.scroll-container img{
     padding: 10px;
@@ -260,13 +277,6 @@ div.scroll-container img{
     -o-background-size: cover;
 }
 
-/*-----------------video-----------*/
-.youtube {
-    border-radius: 5px;
-    padding: 20px;
-    margin: 0 auto;
-    text-align: center;
-}
 
 /*----------classes--------*/
 
@@ -297,9 +307,9 @@ div.scroll-container img{
 }
 
 /*--------Media Query--------- */
-@media only screen and (max-width: 1024px) {
+@media only screen and (width: 1024px) {
     #times div {
-        width: 48%; 
+        width: 49%; 
     }
 
     #times div:last-child {
@@ -311,11 +321,25 @@ div.scroll-container img{
     .types{
         height: auto;
     }
+
+    #times div {
+        width: 48.5%; 
+    }
 }
+
+@media only screen and (max-width: 426px) {
+    #times div {
+        width: 100%; 
+        margin: 2%;
+    }
+}
+
 /*-----------------contact--------*/
+
+
 .contact{
-    height: 400px;
-    background: url('../images/contact.webp') no-repeat center center;
+    height: 552px;
+    background: url('../images/contact.jpg') no-repeat center center;
     background-size: cover;
     display: flex;
     position: relative;
@@ -326,16 +350,35 @@ div.scroll-container img{
 }
 
 .contact-details{
+    height: 400px;
+    margin-top: 5%;
+    margin-left: 10%;
     padding: 20px;
     color: #fafafa;
     background-color: #343a40;
+    opacity: 0.8;
 }
+
+@media only screen and (max-width: 426px) {
+    .contact-details {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (min-width: 426px) {
+    .form-container {
+        height: 80vh;
+    }
+}
+
+
 
 
 
 /*--------------------form---------*/
 .form-container {
-    height: 120vh;
+    height: 100vh;
     width: 80%;
     border-radius: 5px;
     padding: 20px;
@@ -396,6 +439,13 @@ div.scroll-container img{
     display: table;
     clear: both;
   }
+
+  /*--------Media Query--------- */
+  @media only screen and (max-width: 769px) {
+    .form-container{
+        height: auto;
+    }
+}
 
 
 /*----------footer----------*/
