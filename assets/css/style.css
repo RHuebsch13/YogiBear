@@ -4,7 +4,7 @@ body {
     font-weight: 400;
 }
 
-/*----------navbar----------*/
+/*---------------------------------------navbar----------*/
 .navbar-brand {
     font-weight: 300;
 }
@@ -17,7 +17,7 @@ body {
     color: #A020F0;
 }
 
-/*----------welcome section----------*/
+/*----------------------------------------------------------------------------------index.html--------------*/
 .welcome-container {
     height: 100vh;
     background: url('../images/home.jpg') no-repeat center center fixed;
@@ -37,8 +37,6 @@ body {
     text-align: center;
 }
 
-
-/*-----------Block dividers-----------*/
 .container-fluid.welcome-container {
     display: flex;
     justify-content: center;
@@ -53,8 +51,7 @@ body {
     background-color: #fff;
 }
 
-
-/*----------why yoga section----------*/
+/*----------why yoga----------*/
 
  #why-yoga {     
      height: 700px;
@@ -200,7 +197,6 @@ hr {
 }
 
 /*--------Media Query--------- */
-
 @media only screen and (max-width: 426px) {
     .blockquote {
         background-color: #343a40;
@@ -220,11 +216,7 @@ hr {
         border-color: transparent;
     }
 
-
-
-
-/*----------gallery----------*/
-
+/*----------------------------------------------------------------------------------yoga.html--------------*/
 div.scroll-container{
     background-color: #333;
     overflow: auto;
@@ -250,7 +242,6 @@ div.scroll-container img{
 }
 
 /*---------yoga types------*/
-
 .type-yoga { 
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -276,10 +267,14 @@ div.scroll-container img{
     -moz-background-size: cover;
     -o-background-size: cover;
 }
-
+/*--------Media Query--------- */
+@media only screen and (max-width: 769px) {
+    .types{
+        height: auto;
+    }
+}
 
 /*----------classes--------*/
-
 #times{
     background-image: url('../images/class.jpg');
     background-repeat: no-repeat;
@@ -318,9 +313,6 @@ div.scroll-container img{
 }
 
 @media only screen and (max-width: 769px) {
-    .types{
-        height: auto;
-    }
 
     #times div {
         width: 48.5%; 
@@ -334,9 +326,7 @@ div.scroll-container img{
     }
 }
 
-/*-----------------contact--------*/
-
-
+/*----------------------------------------------------------------------------------contact.html--------------*/
 .contact{
     height: 552px;
     background: url('../images/contact.jpg') no-repeat center center;
@@ -359,39 +349,34 @@ div.scroll-container img{
     opacity: 0.8;
 }
 
+/*--------Media Query--------- */
 @media only screen and (max-width: 426px) {
     .contact-details {
         margin-left: auto;
         margin-right: auto;
     }
-    
-    @media (max-width: 426px) {
-        .form-container.div.col-25, .col-75 {
-          width: 100%;
-          margin-top: 0; /* Reset margin for smaller screens */
-        }
-      }
-}
+   
 
 @media only screen and (min-width: 426px) {
     .form-container {
         height: 80vh;
     }
 }
-
-
+}
 
 
 
 /*--------------------form---------*/
 .form-container {
-    height: 100vh;
-    width: 80%;
-    border-radius: 5px;
+    width: 50%;
+    margin: auto;
     padding: 20px;
-    margin: 0 auto;
-  }  
+  }
 
+  .row {
+    margin-bottom: 15px; /* Adjust this value to control the spacing between rows */
+    overflow: hidden; /* Clear floats */
+  }
 
   input[type=text], select, textarea {
     width: 100%;
@@ -448,14 +433,17 @@ div.scroll-container img{
   }
 
   /*--------Media Query--------- */
-  @media only screen and (max-width: 769px) {
-    .form-container{
-        height: auto;
+  @media screen and (max-width: 425px) {
+    .form-container {
+      width: 90%; 
     }
-}
 
+    .row {
+      margin-bottom: 10px; 
+    }
+  }
 
-/*----------footer----------*/
+/*----------------------------footer----------*/
 footer{
     background-color: #343a40;
     text-align: center;
