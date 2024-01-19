@@ -53,9 +53,24 @@ Types of yog ainformation, helping the user identify the type of workout they ar
 # 4. Technology Used
 
 HTML, CSS and Bootstrap frameworks
+CSS styling is applied as:
+line 7 navbar
+
+line 20 index.html
+-line 54 why yoga 
+-line 184 instructors
+
+line 219 yoga.html
+-line 244 yoga types
+-line 271 classes 
+
+line 328 contact.html
+-line 366 form
+
+line 443 footer
 
 # 5. Testing
-
+Code 
 # 6. Deployment
 
 # 7. Credits
