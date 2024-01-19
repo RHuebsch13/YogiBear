@@ -152,7 +152,11 @@ background: url('assets/images/middle.jpg') no-repeat center center;
 
 background: url('../images/home.jpg') no-repeat center center fixed;
 
-
+- targetting the nav
+**orignal code:**
+.navbar-nav .nav-item a.nav-link:hover {
+    color: #A020F0;
+}
 Code passed all validation tests on w3c validator and w3c css validator. Each html file was validated separately.
 ![css validation](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/cssval.png?raw=true)
 ![html validation contact.html](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/htmlcontact.png?raw=true)
