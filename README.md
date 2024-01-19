@@ -14,7 +14,12 @@ This is a static-frontend development project that aims to be simple and respons
 It aims to create a positive user experience.
 
 ## User Stories
-
+As a visiting user, I would like to learn about why yoga is a good choice of exercise.
+As a visiting user, I would like to see who would teach the classes.
+As a visiting user, I would like to view the class times.
+As a visiting user, I would like to learn about the different types of yoga offered.
+As a visiting user, I would like to see what the studio is like.
+As a visiting user, I would like to contact the studio.
 
 ## Design choices
 
@@ -145,28 +150,102 @@ line 443 footer
 - Welcome banner not loading
 
 **orignal code:**
-
-background: url('assets/images/middle.jpg') no-repeat center center;
+[background img error]()
 
 **corrected code with desired effect:**
+[background img correction]()
 
-background: url('../images/home.jpg') no-repeat center center fixed;
 
-- targetting the nav
+- bug: hover feature not working
 **orignal code:**
-.navbar-nav .nav-item a.nav-link:hover {
-    color: #A020F0;
-}
+[bugged hover code](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/incorrect%20nav%20item.png?raw=true)
+
+**corrected code with desired effect:**
+[corrected hover code](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/correct%20nav%20item.png?raw=true)
+
+
+- bug:Spaceing issue for class times on small screens
+
+**corrected code with desired effect:**
+[added code](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/media%20query.png?raw=true)
+
+
+
+## After deployment
+- Gallery should load when page loads;
+ [gallery not loading](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/Screenshot%20(39).png?raw=true)
+
+ - Assisted by Mentor Rohit Sharma, identified the file path was incorrect and the imae could not be located and that is why is wasn't loading. 
+ 
+
 Code passed all validation tests on w3c validator and w3c css validator. Each html file was validated separately.
-![css validation](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/cssval.png?raw=true)
-![html validation contact.html](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/htmlcontact.png?raw=true)
-![html validation index.html](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/htmlindex.png?raw=true)
-![html validation yoga.html](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/htmlyoga.png?raw=true)
+* [CSS Validation](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/cssval.png?raw=true)
+* [Index.html](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/htmlindex.png?raw=true)
+* [Yoga.html](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/htmlyoga.png?raw=true)
+* [Contact.html](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/htmlcontact.png?raw=true)
+
 # 5. Deployment
+This project was developed using codeanywhere and VS code IDE, commited to Git and pushed to GitHub.
+To deploy this page to GitHub pages from its repository:
+1. Log into Github.
+2. Select repository RHuebsch13/YogiBear.
+3. Select 'settings'from the menu near the top of the page.
+4. Go to Github page section.
+5. Under source, select deploy from a branch.
+6. Select main /root under branch and click save. 
+7. Refresh the page, the website is now deployed. 
+8. Link can be retrived from Github pages.
+
+## How work on the project code within a local IDE i.e:. codeanywhere or VS code
+To clone this project from Github:
+1. Follow this link to the Project Github respository; [Here](https://github.com/RHuebsch13/YogiBear)
+2. Under respository name; select 'clone or download'
+3. Copy the clone URL fro the repository.
+4. In your IDE open the terminl.
+5. Change the working directory to the location where you want the cloned directory to be made
+6. Type git clone and your URL from step 3 
 
 # 6. Credits
+## Code
+* Template code for horzontal scroll gallery from W3schools.
+* Template code for Contact form from W3schools.
+* Code for adding videos from Youtube W3schools.
+* Code for making an input required in form.
+* Template code for structure of why yoga section from Love Running mini project - Code Institute.
+* Template code for structure of why yoga class times section layout using divs from Love Running mini project - Code Institute.
+* Code for hr line under welcome statement from Love Running mini project - Code Institute.
+* Template code for navbar dropdown menu option for smaller screens Whiskey Drop project - Code Institute.
+* Code for instuctor section, blockquotes from Whiskey Drop project - Code Institute.
+* Template code for footer, including how to add a pdf download link and social media links to icons, from  Whiskey Drop project - Code Institute
+* Assitance with bug detection and elimataion, general layout and appearance from mentor; Rohit Sharma.
 
-gallery, form we3schools
-Love Running, (structure of why yoga section, class times section) Code Institute
-Whiskey Drop, (navbar dropdown menu option for smaller screeens, downloadble pdf, footer structure) Code Institute
-why choose yoga (for info used on page) https://www.ekhartyoga.com/articles/practice/7-great-reasons-to-start-practicing-yoga
+## Content
+* Why yoga info based on info found [here](https://www.ekhartyoga.com/articles/practice/7-great-reasons-to-start-practicing-yoga)
+* Type of yoga section info based on info found [here](https://www.mindbodygreen.com/articles/the-11-major-types-of-yoga-explained-simply) and [here](https://www.medicalnewstoday.com/articles/what-is-hot-yoga#definition)
+
+## Media 
+### Background image sources:
+* [Class time](https://pixabay.com/photos/lycaenidae-butterfly-banner-insects-3993275/)
+* [Welcome](https://hotpodyoga.com/studios/newcastle/)
+* [Types of yoga](https://www.mikkyrebelfit.com/workout/yoga-flow/)
+* [Contact page](https://drchloetillman.com/home/yoga-banner-home/)
+
+### Feature image sources:
+* [Circle image why yoga](https://medium.com/@maxd4rnall/how-dmt-saved-me-from-nihilism-a4b3d895a27f)
+* [Instructor images](https://mandayoga.co.uk/) and [here](https://omstars.com/yoga-drills-secrets-of-flexibility)
+* Gallery images 
+- https://commons.wikimedia.org/wiki/File:Yoga_practice_by_Varahi_Mystic_Yoga.jpg 
+- https://omstars.com/live-class/be0380cb-eb89-4f76-9df8-b7f74e828c6b
+- https://www.mother.ly/birth/labor-delivery/yoga-poses-labor/
+- https://blog.davidlloyd.co.uk/new-to-group-exercise-the-best-tips-for-beginners/
+- https://omstars.com/yin-for-happy-hips
+- https://www.goayogashala.com/yoga/is-adjustment-and-alignment-necessary-for-yoga-practice/
+- https://yogawithmaria.co.uk/product/four-mixed-ability-yoga-classes-on-monday-evening/
+- https://omstars.com/movement-foundations-practices-flows-and-foundations
+* Gallery videos
+- https://www.youtube.com/watch?v=osCsxeCy5Q4
+- https://www.youtube.com/watch?v=uQszEXaiJ1Y&t=1s
+- https://www.youtube.com/watch?v=uyIj0pS38S0&t=84s
+
+
+

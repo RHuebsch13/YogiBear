@@ -43,6 +43,7 @@ body {
     align-items: center;
 }
 
+/*--credit including corresponding css: Love Running mini project - Code Institute.--*/
 .block-divider {
     width: 20%;
     height: 2px;
@@ -371,8 +372,8 @@ div.scroll-container img{
   }
 
   .row {
-    margin-bottom: 15px; /* Adjust this value to control the spacing between rows */
-    overflow: hidden; /* Clear floats */
+    margin-bottom: 15px; 
+    overflow: hidden; 
   }
 
   input[type=text], select, textarea {
