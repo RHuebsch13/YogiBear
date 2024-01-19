@@ -285,7 +285,7 @@ div.scroll-container img{
 }
 
 #times div {
-    color: #fafafa;
+    color: rgb(255, 255, 255);
     background-color: rgba(0,0,0, .6);
     width: 24.3%;
     height: 400px;
@@ -313,7 +313,6 @@ div.scroll-container img{
 }
 
 @media only screen and (max-width: 769px) {
-
     #times div {
         width: 48.5%; 
     }
@@ -363,8 +362,6 @@ div.scroll-container img{
     }
 }
 }
-
-
 
 /*--------------------form---------*/
 .form-container {
