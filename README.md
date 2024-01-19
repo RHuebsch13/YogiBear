@@ -147,42 +147,56 @@ line 443 footer
     background-color: #fff;
 }
 
+
+
 - Welcome banner not loading
 
 **orignal code:**
-[background img error]()
+![background img error]()
 
 **corrected code with desired effect:**
-[background img correction]()
+![background img correction]()
+
+
 
 
 - bug: hover feature not working
+
 **orignal code:**
-[bugged hover code](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/incorrect%20nav%20item.png?raw=true)
+
+![bugged hover code](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/incorrect%20nav%20item.png?raw=true)
 
 **corrected code with desired effect:**
-[corrected hover code](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/correct%20nav%20item.png?raw=true)
+
+![corrected hover code](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/correct%20nav%20item.png?raw=true)
+
+
 
 
 - bug:Spaceing issue for class times on small screens
 
 **corrected code with desired effect:**
-[added code](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/media%20query.png?raw=true)
+
+![added code](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/media%20query.png?raw=true)
 
 
 
 ## After deployment
 - Gallery should load when page loads;
- [gallery not loading](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/Screenshot%20(39).png?raw=true)
+
+ ![gallery not loading](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/Screenshot%20(39).png?raw=true)
 
  - Assisted by Mentor Rohit Sharma, identified the file path was incorrect and the imae could not be located and that is why is wasn't loading. 
  
 
+
 Code passed all validation tests on w3c validator and w3c css validator. Each html file was validated separately.
-* [CSS Validation](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/cssval.png?raw=true)
-* [Index.html](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/htmlindex.png?raw=true)
-* [Yoga.html](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/htmlyoga.png?raw=true)
-* [Contact.html](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/htmlcontact.png?raw=true)
+
+* ![CSS Validation](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/cssval.png?raw=true)
+* ![Index.html](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/htmlindex.png?raw=true)
+* ![Yoga.html](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/htmlyoga.png?raw=true)
+* ![Contact.html](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/htmlcontact.png?raw=true)
+
 
 # 5. Deployment
 This project was developed using codeanywhere and VS code IDE, commited to Git and pushed to GitHub.
