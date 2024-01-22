@@ -54,7 +54,7 @@ Engaging and informative content, including instructor profiles, class descripti
 Designed in mockflow, there are 3 wireframes for each pages. Providing planned layout and views on large screens, medium screens and small screens.
 
 ### index.html
-![wireframe big screens](https://github.com/RHuebsch13/YogiBear/blob/main/readme.docs/homew.png?raw=true)
+![wireframe big screens](https://github.com/RHuebsch13/YogiBear/blob/main/assets/images/homew.png)
 ![wireframe medium screens](https://github.com/RHuebsch13/YogiBear/blob/main/readme.docs/homet.png?raw=true)
 ![wireframe small screens](https://github.com/RHuebsch13/YogiBear/blob/main/readme.docs/homep.png?raw=true)
 
@@ -65,8 +65,8 @@ Designed in mockflow, there are 3 wireframes for each pages. Providing planned l
 
 ### contact.html
 ![wireframe big screens](https://github.com/RHuebsch13/YogiBear/blob/main/readme.docs/contactw.png?raw=true)
-![wireframe medium screens](https://github.com/RHuebsch13/YogiBear/blob/main/readme.docs/contactt.png?raw=true)
-![wireframe small screens](https://github.com/RHuebsch13/YogiBear/blob/main/readme.docs/contactp.png?raw=true)
+![wireframe medium screens](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/contactt.png?raw=true)
+![wireframe small screens](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/contactp.png?raw=true)
 
 # 2. Features
 
@@ -168,10 +168,10 @@ line 443 footer
 
 ## Validation Tests
 - Code passed all validation tests on w3c validator and w3c CSS validator.
-  - [CSS Validation](https://github.com/RHuebsch13/YogiBear/blob/main/readme.docs/cssval.png?raw=true) 
-  - [Index.html](https://github.com/RHuebsch13/YogiBear/blob/main/readme.docs/htmlindex.png?raw=true)
-  - [Yoga.html](https://github.com/RHuebsch13/YogiBear/blob/main/readme.docs/htmlyoga.png?raw=true)
-  - [Contact.html](https://github.com/RHuebsch13/YogiBear/blob/main/readme.docs/htmlcontact.png?raw=true)
+  - [CSS Validation](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/cssval.png?raw=true)
+  - [Index.html](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/htmlindex.png?raw=true)
+  - [Yoga.html](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/htmlyoga.png?raw=true)
+  - [Contact.html](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/htmlcontact.png?raw=true)
 
 ## Lighthouse Testing
 - Meta descriptions were added.
