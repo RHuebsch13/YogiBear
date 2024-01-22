@@ -97,65 +97,22 @@ line 443 footer
 - Working with hr element, trying to center it in equal dimensions under the welcome message;
 
 **orignal code:**
+![hr element error]()
 
-.container-fluid.welcome-container {
-
-    display: flex;
-
-    justify-content: center;
-
-    align-items: center;
-}
-
-
-.block-divider {
-
-    width: 70%;
-
-    height: 2px;
-
-    border: 0;
-
-    padding: 0 5%;
-
-    background-color: #fff;
-
-}
 
 **corrected code with desired effect:**
+![hr element correct]()
 
-.container-fluid.welcome-container {
-
-    display: flex;
-
-    justify-content: center;
-
-    align-items: center;
-}
-
-
-.block-divider {
-
-    width: 70%;
-
-    height: 2px;
-
-    border: 0;
-
-    margin: 5% auto;
-
-    background-color: #fff;
-}
 
 
 
 - Welcome banner not loading
 
 **orignal code:**
-![background img error]()
+![background img error](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/incorrect%20file%20path.png?raw=true)
 
 **corrected code with desired effect:**
-![background img correction]()
+![background img correction](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/correct%20file%20path.png?raw=true)
 
 
 
@@ -186,7 +143,7 @@ line 443 footer
 
  ![gallery not loading](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/Screenshot%20(39).png?raw=true)
 
- - Assisted by Mentor Rohit Sharma, identified the file path was incorrect and the imae could not be located and that is why is wasn't loading. 
+ - Assisted by Mentor Rohit Sharma, identified the file path was incorrect and the image could not be located and that is why is wasn't loading. 
  
 
 
@@ -197,6 +154,12 @@ Code passed all validation tests on w3c validator and w3c css validator. Each ht
 * ![Yoga.html](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/htmlyoga.png?raw=true)
 * ![Contact.html](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/htmlcontact.png?raw=true)
 
+
+## Lighthouse testing
+[mobile homepage](file:///C:/Users/roxan/OneDrive/Desktop/YogiBear/hmoe%20page%20mobile.pdf)
+- meta descriptions were added 
+
+[desktop homepage](file:///C:/Users/roxan/OneDrive/Desktop/YogiBear/Lighthouse%20Report%20Viewer%20home%20page.pdf)
 
 # 5. Deployment
 This project was developed using codeanywhere and VS code IDE, commited to Git and pushed to GitHub.
