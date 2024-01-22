@@ -157,6 +157,8 @@ line 443 footer
 
 ![added code](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/media%20query.png?raw=true)
 
+
+
 ## After Deployment
 
 ### 1. Gallery Not Loading
