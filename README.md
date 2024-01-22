@@ -1,17 +1,20 @@
 # Yogi Bear Yoga Studio
 
 # 1. UX
+## User Research
+Identified key user personas, ie. people who are into wellness and also people who want to started with their yoga journey. The website should be inclusive for experienced practitioners and beginners, helping those looking for specific yoga styles or classes. Therefore, attracting new customers and return customers.
 
 ## Project goals
 
 This website has the purpose of delivering information to the user.
 It seeks to create a platform for the Yogi bear yoga studios existing clients, as well as attracting new clients.
+The user research shall be taken into account. There is beginner-friendly information for those wishing to find a yoga community; explainations on yoga health benefits and defintion of the classes offered at the studio. There is content for the experienced yogi; classes offered, which to avoid as they are beginner classes - Yin Yoga. The content also includes expecting mothers as there are classes for them too. While all content remains relevent for user personas seeking a community of both physical and emotional wellness.
 
 ## User Goals
 
 The user will have access to information that relates to Yogi bear yoga studios.
 This is a static-frontend development project that aims to be simple and responsive, with easily acessable content.
-It aims to create a positive user experience.
+It aims to create a positive user experience. There is an emphasis on responsive design to ensure that the website is accessible on various devices, including desktops, tablets, and mobile phones as well as implementing a mobile-first approach to ensure acessibility for as many screens as possible.
 
 ## User Stories
 As a visiting user, I would like to learn about why yoga is a good choice of exercise.
@@ -23,8 +26,10 @@ As a visiting user, I would like to contact the studio.
 
 ## Design choices
 
+The design aims to be visually appealing, with an interface that is calm. The color scheme reflects the serenity associated with yoga. GoodUI was comsulted to help the project follow common and consistent UI/UX conventions
+High-quality images of the studio space, instructors, and yoga poses to convey the atmosphere and experience were added.
 All design choices are made to create an easy to use and easy to naviagte website, that is visually pleasing for the user. 
-The webpage has a traditional layout in terms of navbar, footer and content. All of these elements remain in the same place on each page as does the logo "Yogi Bear". This makes for easy site navigation.
+The webpage has a traditional 3 page layout with continuity in terms of navbar, footer and content layout. All of these elements remain in the same place on each page as does the logo "Yogi Bear". This makes the site easy to learn, use and navigation for the user.
 
 ### Fonts
 Google font Roboto has been used as the primary font. The sans-serif fallback is included as a generic category in case 'Roboto' is not available on the user's device or browser. Both fonts were selected as the are easy to read and match the aesthetic of the page.
@@ -38,128 +43,147 @@ The simple grey and white combination make the content easy to see and provides 
 
 ### Styling
 headings are bigger in size so they are easily identified by the user. These heading are also relative to the content. All three page make use of divs and sections to provide cohensive layout. Bootstrap is on;y used in places and makes use of the concept on grid layout.
+
 ### Backgrounds
 Several images have been used for backgrounds, the text has then been modified to stand out aganist the background, using colour and opacity. As well as images, solid colour background were used to break up the pages, this is done on the home and the contact page. 
-## wireframes
-Designed in mockflow, shows for views for big screens such as laptops and computers, smaller screens like tablets and the smallest screens being cellphones.
-index.html
+
+### Content
+Engaging and informative content, including instructor profiles, class descriptions, and yoga philosophy to educate and attract users.Encouraging an inclusive community.
+
+## Wireframes
+Designed in mockflow, there are 3 wireframes for each pages. Providing planned layout and views on large screens, medium screens and small screens.
+
+### index.html
 ![wireframe big screens](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/homew.png?raw=true)
 ![wireframe medium screens](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/homet.png?raw=true)
 ![wireframe small screens](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/homep.png?raw=true)
 
-yoga.html
+### yoga.html
 ![wireframe big screens](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/yogaw.png?raw=true)
 ![wireframe medium screens](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/yogat.png?raw=true)
 ![wireframe small screens](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/yogap.png?raw=true)
 
-contact.html
+### contact.html
 ![wireframe big screens](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/contactw.png?raw=true)
 ![wireframe medium screens](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/contactt.png?raw=true)
 ![wireframe small screens](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/contactp.png?raw=true)
 
 # 2. Features
 
-## Existing features
+## Existing Features
 
-Navbar dropdown: this only becomes visual when the screen real estate is less than 768px, making the navbar easily accessible even on a smaller screen. The purpose of this is to ensure that the website will work for as many people as possible across as many different devices as possible. scrollable videos + pictures, not a real yoga studio, etc
+* Navbar dropdown: this only becomes visible when the screen real-estate is less than 768px, making the navbar easily accessible even on a smaller screen. Showing the ability to prioritizing content and features for smaller screens while maintaining a seamless user experience. The purpose of this is to ensure that the website will work for as many people as possible across as many different devices as possible. 
+* InStructor information, with images of instructors.
+* Scrollable videos + pictures of th studio and classes
+* Download link for the class timetable, which is the download icon.
+* Social media icons that act as hyperlinks.
+* Benefits of yoga as a practice.
+* Types of yoga information, helping the user identify the type of workout they are looking for.
 
-Download link for the class timetable, which is the download icon.
-
-Benefits of yoga as practice.
-
-Types of yog ainformation, helping the user identify the type of workout they are looking for.
-
-## left to implement
-Responsive calender that allows the user to book a spot in the upcoming classes
-log in facility so the user keep track of their booked/upcoming classes.
+## Left to Implement
+* Responsive calender that allows the user to book a spot in the upcoming classes
+* Log in facility so the user can keep track of their booked/upcoming classes.
 
 # 3. Technology Used
 
 HTML, CSS and Bootstrap frameworks
+
 CSS styling is applied as:
+
 line 7 navbar
 
 line 20 index.html
--line 54 why yoga 
--line 184 instructors
+
+- line 54 why yoga
+- line 184 instructors
 
 line 219 yoga.html
--line 244 yoga types
--line 271 classes 
+- line 244 yoga types
+- line 271 classes 
 
 line 328 contact.html
--line 366 form
+- line 366 form
 
 line 443 footer
 
 # 4. Testing
+## Results
+
+* A visiting user can learn about why yoga is a good choice of exercise on the home page, with well laid out information in point form that are easy to read and visually pleasing.
+* A visiting user can see who would teach the classes by reading about our instructors on the home page and they can see their picture so they can be easily recognised when the user decides to try a class.
+* A visiting user can view the class times by viewing the class timetable on the yoga page or downloading the pdf file that provides the same information.
+* A visiting user can learn about the different types of yoga offered by reading the information on the yoga page about the types of yoga offered at the studio.
+* A visiting user can see what the studio is like by viewing the gallery images and videos.
+* A visiting user can contact the studio by viewing the contact page and using the contact details provide or by filling in the query form.
+
+
 ## Bug Problems
-- Working with hr element, trying to center it in equal dimensions under the welcome message;
 
-**orignal code:**
-![hr element error]()
+### 1. Centering `<hr>` Element
+- Issue: element not centered in equal dimensions under the welcome message.
+- Original Code:
+
+![hr element error](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/centering-I.png?raw=true)
+
+- Corrected Code with Desired Effect:
+
+![hr element correct](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/centering-c.png?raw=true)
 
 
-**corrected code with desired effect:**
-![hr element correct]()
+### 2. Welcome Banner Not Loading
+- Issue: Welcome banner image not loading.
+- Original Code:
 
-
-
-
-- Welcome banner not loading
-
-**orignal code:**
 ![background img error](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/incorrect%20file%20path.png?raw=true)
 
-**corrected code with desired effect:**
+- Corrected Code with Desired Effect:
+
 ![background img correction](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/correct%20file%20path.png?raw=true)
 
 
-
-
-- bug: hover feature not working
-
-**orignal code:**
+### 3. Hover Feature Not Working
+- Issue: Hover feature not working.
+- Original Code:
 
 ![bugged hover code](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/incorrect%20nav%20item.png?raw=true)
 
-**corrected code with desired effect:**
+- Corrected Code with Desired Effect:
 
 ![corrected hover code](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/correct%20nav%20item.png?raw=true)
 
-
-
-
-- bug:Spaceing issue for class times on small screens
-
-**corrected code with desired effect:**
+### 4. Spacing Issue for Class Times on Small Screens
+- Issue: Spacing issue bug for class times on small screens.
+- Corrected Code with Desired Effect:
 
 ![added code](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/media%20query.png?raw=true)
 
+## After Deployment
+
+### 1. Gallery Not Loading
+- Issue: Gallery should load when the page loads.
+![gallery not loading](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/Screenshot%20(39).png?raw=true)
+- Resolution: Assisted by Mentor Rohit Sharma, identified the file path was incorrect, and the image could not be located, which is why it wasn't loading.
+
+## Validation Tests
+- Code passed all validation tests on w3c validator and w3c CSS validator.
+  - [CSS Validation](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/cssval.png?raw=true)
+  - [Index.html](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/htmlindex.png?raw=true)
+  - [Yoga.html](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/htmlyoga.png?raw=true)
+  - [Contact.html](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/htmlcontact.png?raw=true)
+
+## Lighthouse Testing
+- Meta descriptions were added.
+  - [Download PDF mobile home](https://github.com/RHuebsch13/YogiBear/blob/main/hmoe%20page%20mobile.pdf)
+    
+    Meta description added.
+  - [Download PDF home page](https://github.com/RHuebsch13/YogiBear/blob/main/home%20page.pdf)
+  - [Download PDF mobile gallery](https://github.com/RHuebsch13/YogiBear/blob/main/gallery%20mobile.pdf)
+  - [Download PDF gallery page](https://github.com/RHuebsch13/YogiBear/blob/main/gallery%20page%20desk..pdf)
+  - [Download PDF mobile contact](https://github.com/RHuebsch13/YogiBear/blob/main/contact%20mobile.pdf)
+  - [Download PDF contact page](https://github.com/RHuebsch13/YogiBear/blob/main/contact%20desk..pdf)
 
 
-## After deployment
-- Gallery should load when page loads;
-
- ![gallery not loading](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/Screenshot%20(39).png?raw=true)
-
- - Assisted by Mentor Rohit Sharma, identified the file path was incorrect and the image could not be located and that is why is wasn't loading. 
- 
-
-
-Code passed all validation tests on w3c validator and w3c css validator. Each html file was validated separately.
-
-* ![CSS Validation](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/cssval.png?raw=true)
-* ![Index.html](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/htmlindex.png?raw=true)
-* ![Yoga.html](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/htmlyoga.png?raw=true)
-* ![Contact.html](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/htmlcontact.png?raw=true)
-
-
-## Lighthouse testing
-[mobile homepage](file:///C:/Users/roxan/OneDrive/Desktop/YogiBear/hmoe%20page%20mobile.pdf)
-- meta descriptions were added 
-
-[desktop homepage](file:///C:/Users/roxan/OneDrive/Desktop/YogiBear/Lighthouse%20Report%20Viewer%20home%20page.pdf)
+No broken links found using [W3C Link Checker](https://validator.w3.org/checklink).
 
 # 5. Deployment
 This project was developed using codeanywhere and VS code IDE, commited to Git and pushed to GitHub.
@@ -173,9 +197,9 @@ To deploy this page to GitHub pages from its repository:
 7. Refresh the page, the website is now deployed. 
 8. Link can be retrived from Github pages.
 
-## How work on the project code within a local IDE i.e:. codeanywhere or VS code
+## How work on the project code within a local IDE; codeanywhere or VS code
 To clone this project from Github:
-1. Follow this link to the Project Github respository; [Here](https://github.com/RHuebsch13/YogiBear)
+1. Follow this link to the Project Github respository; [here](https://github.com/RHuebsch13/YogiBear)
 2. Under respository name; select 'clone or download'
 3. Copy the clone URL fro the repository.
 4. In your IDE open the terminl.
@@ -201,13 +225,13 @@ To clone this project from Github:
 * Type of yoga section info based on info found [here](https://www.mindbodygreen.com/articles/the-11-major-types-of-yoga-explained-simply) and [here](https://www.medicalnewstoday.com/articles/what-is-hot-yoga#definition)
 
 ## Media 
-### Background image sources:
+### Background Image Sources:
 * [Class time](https://pixabay.com/photos/lycaenidae-butterfly-banner-insects-3993275/)
 * [Welcome](https://hotpodyoga.com/studios/newcastle/)
 * [Types of yoga](https://www.mikkyrebelfit.com/workout/yoga-flow/)
 * [Contact page](https://drchloetillman.com/home/yoga-banner-home/)
 
-### Feature image sources:
+### Feature Image Sources:
 * [Circle image why yoga](https://medium.com/@maxd4rnall/how-dmt-saved-me-from-nihilism-a4b3d895a27f)
 * [Instructor images](https://mandayoga.co.uk/) and [here](https://omstars.com/yoga-drills-secrets-of-flexibility)
 * Gallery images 
