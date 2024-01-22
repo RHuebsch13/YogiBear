@@ -54,19 +54,19 @@ Engaging and informative content, including instructor profiles, class descripti
 Designed in mockflow, there are 3 wireframes for each pages. Providing planned layout and views on large screens, medium screens and small screens.
 
 ### index.html
-![wireframe big screens](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/homew.png?raw=true)
-![wireframe medium screens](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/homet.png?raw=true)
-![wireframe small screens](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/homep.png?raw=true)
+![wireframe big screens](https://github.com/RHuebsch13/YogiBear/blob/main/readme.docs/homew.png?raw=true)
+![wireframe medium screens](https://github.com/RHuebsch13/YogiBear/blob/main/readme.docs/homet.png?raw=true)
+![wireframe small screens](https://github.com/RHuebsch13/YogiBear/blob/main/readme.docs/homep.png?raw=true)
 
 ### yoga.html
-![wireframe big screens](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/yogaw.png?raw=true)
-![wireframe medium screens](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/yogat.png?raw=true)
-![wireframe small screens](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/yogap.png?raw=true)
+![wireframe big screens](https://github.com/RHuebsch13/YogiBear/blob/main/readme.docs/yogaw.png?raw=true)
+![wireframe medium screens](https://github.com/RHuebsch13/YogiBear/blob/main/readme.docs/yogat.png?raw=true)
+![wireframe small screens](https://github.com/RHuebsch13/YogiBear/blob/main/readme.docs/yogap.png?raw=true)
 
 ### contact.html
-![wireframe big screens](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/contactw.png?raw=true)
-![wireframe medium screens](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/contactt.png?raw=true)
-![wireframe small screens](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/contactp.png?raw=true)
+![wireframe big screens](https://github.com/RHuebsch13/YogiBear/blob/main/readme.docs/contactw.png?raw=true)
+![wireframe medium screens](https://github.com/RHuebsch13/YogiBear/blob/main/readme.docs/contactt.png?raw=true)
+![wireframe small screens](https://github.com/RHuebsch13/YogiBear/blob/main/readme.docs/contactp.png?raw=true)
 
 # 2. Features
 
@@ -123,39 +123,39 @@ line 443 footer
 - Issue: element not centered in equal dimensions under the welcome message.
 - Original Code:
 
-![hr element error](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/centering-I.png?raw=true)
+![hr element error](https://github.com/RHuebsch13/YogiBear/blob/main/readme.docs/centering-I.png?raw=true)
 
 - Corrected Code with Desired Effect:
 
-![hr element correct](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/centering-c.png?raw=true)
+![hr element correct](https://github.com/RHuebsch13/YogiBear/blob/main/readme.docs/centering-c.png?raw=true)
 
 
 ### 2. Welcome Banner Not Loading
 - Issue: Welcome banner image not loading.
 - Original Code:
 
-![background img error](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/incorrect%20file%20path.png?raw=true)
+![background img error](https://github.com/RHuebsch13/YogiBear/blob/main/readme.docs/incorrect%20file%20path.png?raw=true)
 
 - Corrected Code with Desired Effect:
 
-![background img correction](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/correct%20file%20path.png?raw=true)
+![background img correction](https://github.com/RHuebsch13/YogiBear/blob/main/readme.docs/correct%20file%20path.png?raw=true)
 
 
 ### 3. Hover Feature Not Working
 - Issue: Hover feature not working.
 - Original Code:
 
-![bugged hover code](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/incorrect%20nav%20item.png?raw=true)
+![bugged hover code](https://github.com/RHuebsch13/YogiBear/blob/main/readme.docs/incorrect%20nav%20item.png?raw=true)
 
 - Corrected Code with Desired Effect:
 
-![corrected hover code](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/correct%20nav%20item.png?raw=true)
+![corrected hover code](https://github.com/RHuebsch13/YogiBear/blob/main/readme.docs/correct%20nav%20item.png?raw=true)
 
 ### 4. Spacing Issue for Class Times on Small Screens
 - Issue: Spacing issue bug for class times on small screens.
 - Corrected Code with Desired Effect:
 
-![added code](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/media%20query.png?raw=true)
+![added code](https://github.com/RHuebsch13/YogiBear/blob/main/readme.docs/media%20query.png?raw=true)
 
 
 
@@ -163,15 +163,15 @@ line 443 footer
 
 ### 1. Gallery Not Loading
 - Issue: Gallery should load when the page loads.
-![gallery not loading](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/Screenshot%20(39).png?raw=true)
+![gallery not loading](https://github.com/RHuebsch13/YogiBear/blob/main/readme.docs/Screenshot%20(39).png?raw=true)
 - Resolution: Assisted by Mentor Rohit Sharma, identified the file path was incorrect, and the image could not be located, which is why it wasn't loading.
 
 ## Validation Tests
 - Code passed all validation tests on w3c validator and w3c CSS validator.
-  - [CSS Validation](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/cssval.png?raw=true)
-  - [Index.html](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/htmlindex.png?raw=true)
-  - [Yoga.html](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/htmlyoga.png?raw=true)
-  - [Contact.html](https://github.com/RHuebsch13/YogiBear/blob/main/readme%20docs/htmlcontact.png?raw=true)
+  - [CSS Validation](https://github.com/RHuebsch13/YogiBear/blob/main/readme.docs/cssval.png?raw=true)
+  - [Index.html](https://github.com/RHuebsch13/YogiBear/blob/main/readme.docs/htmlindex.png?raw=true)
+  - [Yoga.html](https://github.com/RHuebsch13/YogiBear/blob/main/readme.docs/htmlyoga.png?raw=true)
+  - [Contact.html](https://github.com/RHuebsch13/YogiBear/blob/main/readme.docs/htmlcontact.png?raw=true)
 
 ## Lighthouse Testing
 - Meta descriptions were added.
