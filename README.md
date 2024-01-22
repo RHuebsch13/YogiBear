@@ -168,7 +168,7 @@ line 443 footer
 
 ## Validation Tests
 - Code passed all validation tests on w3c validator and w3c CSS validator.
-  - [CSS Validation](https://github.com/RHuebsch13/YogiBear/blob/main/readme.docs/cssval.png?raw=true)
+  - [CSS Validation](https://github.com/RHuebsch13/YogiBear/blob/main/readme.docs/cssval.png?raw=true) 
   - [Index.html](https://github.com/RHuebsch13/YogiBear/blob/main/readme.docs/htmlindex.png?raw=true)
   - [Yoga.html](https://github.com/RHuebsch13/YogiBear/blob/main/readme.docs/htmlyoga.png?raw=true)
   - [Contact.html](https://github.com/RHuebsch13/YogiBear/blob/main/readme.docs/htmlcontact.png?raw=true)
